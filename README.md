@@ -1,22 +1,22 @@
-# Password Generator
+# Password Generator 🔐
 
 This project is a simple password generator with customization features. It is developed using HTML, CSS, and JavaScript.
 
-## Fonctionnalités
+## Features
 
 - Generates secure random passwords.
 - Options to customize the password (length, uppercase, numbers, symbols).
 - History of generated passwords.
 - Ability to copy passwords to the clipboard.
 
-## Langages et Techniques Utilisés
+## Languages and Techniques Used🛠️
 
 - HTML
 - CSS
 - JavaScript (ES6+)
 - LocalStorage
 
-## Comment Utiliser
+## How to Use  🚀
 
 1. Clone the project to your local machine.
 2. Open the index.html file in your browser.
@@ -25,13 +25,15 @@ This project is a simple password generator with customization features. It is d
 5. Copy the password using the "Copy" button.
 6. Check the history of generated passwords.
 
-## Screenshot
+## Screenshot 📸
+
+<img width="1494" alt="Capture d’écran 2024-02-09 à 13 53 45" src="https://github.com/failaxite/Password-Generator/assets/48534490/96d69694-950f-4455-9266-2910cba0a19e">
 
 
-## Author
+## Author 👨‍💻
 
 @failaxite
 
-## Licence
+## Licence 📜
 
 This project is licensed under the[MIT](LICENSE).
