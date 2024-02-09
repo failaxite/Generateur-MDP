@@ -81,7 +81,7 @@ function copyToClipboard() {
         document.execCommand('copy');
         document.body.removeChild(textArea);
 
-        successMessage.innerText = 'Mot de passe copié dans le presse-papiers !';
+        successMessage.innerText = 'Password copied to clipboard!';
         successMessage.style.display = 'block';
 
         setTimeout(function() {
@@ -125,7 +125,7 @@ function loadPasswordHistory() {
         if (savedPasswords.length > MAX_PASSWORDS_IN_DISPLAY) {
             const remainingCount = savedPasswords.length - MAX_PASSWORDS_IN_DISPLAY;
             const li = document.createElement('li');
-            li.innerHTML = '<span class="password"></span><span class="highlight">+' + remainingCount + ' autres mot de passe</span> <br>';
+            li.innerHTML = '<span class="password"></span><span class="highlight">+' + remainingCount + ' other passwords</span> <br>';
             passwordHistory.appendChild(li);
         }
     }
@@ -172,5 +172,3 @@ function downloadHistory() {
         URL.revokeObjectURL(url);
     }
 }
-
-
